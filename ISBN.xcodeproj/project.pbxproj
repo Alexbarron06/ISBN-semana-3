@@ -14,6 +14,7 @@
 		89D970F11C3C200800C58385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D970EF1C3C200800C58385 /* Main.storyboard */; };
 		89D970F31C3C200800C58385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D970F21C3C200800C58385 /* Assets.xcassets */; };
 		89D970F61C3C200800C58385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D970F41C3C200800C58385 /* LaunchScreen.storyboard */; };
+		89D971061C3C2B0000C58385 /* ISBNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D971051C3C2B0000C58385 /* ISBNViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		89D970F21C3C200800C58385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D970F51C3C200800C58385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D970F71C3C200800C58385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D971051C3C2B0000C58385 /* ISBNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISBNViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				89D970E61C3C200800C58385 /* AppDelegate.swift */,
 				89D970EB1C3C200800C58385 /* MasterViewController.swift */,
 				89D970ED1C3C200800C58385 /* DetailViewController.swift */,
+				89D971051C3C2B0000C58385 /* ISBNViewController.swift */,
 				89D970EF1C3C200800C58385 /* Main.storyboard */,
 				89D970F21C3C200800C58385 /* Assets.xcassets */,
 				89D970F41C3C200800C58385 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D971061C3C2B0000C58385 /* ISBNViewController.swift in Sources */,
 				89D970E71C3C200800C58385 /* AppDelegate.swift in Sources */,
 				89D970EA1C3C200800C58385 /* ISBN.xcdatamodeld in Sources */,
 				89D970EC1C3C200800C58385 /* MasterViewController.swift in Sources */,
